@@ -1,7 +1,7 @@
 @include('layouts.header')
 
 <body>
-    <h1>Libro: <?php echo $libro->isbn; ?></h1>
+    <h1>Libro:<?php echo $libro->isbn; ?></h1>
     <div class="form-row">
         <div class="form-group col-md-6">
             <label for="titulo">Título:</label>
@@ -27,4 +27,6 @@
         <a href="<?php echo route('libros.index'); ?>"> <button type="button" class="btn btn-primary">Volver</button> </a>
     </div>
     </form>
+
+    
 @include('layouts.footer')
